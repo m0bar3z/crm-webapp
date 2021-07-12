@@ -1,0 +1,69 @@
+.delete-button{
+    border: 2px solid rgba(255,130,255,0.3);
+    width: 44px;
+    border-radius: 10px;
+}
+
+.add-product {
+    background-color: var(--pages-background);
+    border-radius: 12px;
+    border: none;
+}
+
+.add-product-btn {
+    background-color: var(--button-background);
+    color: var(--button-color-one);
+    border: none;
+    border-radius: 11px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.product-input-add{
+    height: 40%;
+}
+
+.product-input-edit{
+    height: 60%;
+}
+
+.product-checkbox{
+    font-size: 18px;
+}
+
+.was-validated .form-check-input:valid, .form-check-input.is-valid {
+    border-color: var(--button-color-two);
+}
+
+.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {
+    border-color: var(--button-color-two);
+}
+
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
+    color: var(--button-color-two);
+}
+
+.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {
+    background-color: var(--button-color-two);
+}
+
+
+.was-validated .form-check-input:invalid, .form-check-input.is-invalid {
+    border-color: var(--dager-color);
+}
+
+.was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
+    border-color: var(--dager-color);
+}
+
+.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
+    color: var(--dager-color);
+}
+
+.was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
+    background-color: var(--dager-color);
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: none;
+}

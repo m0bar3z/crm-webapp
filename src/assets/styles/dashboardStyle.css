@@ -1,0 +1,22 @@
+.mainPage {
+    background: var(--pages-background);
+}
+
+.sidebar {
+    background-color: red;
+    width: 40vw;
+}
+
+.sidebarItem {
+    border-bottom: 1px solid var(--button-background);
+}
+
+.sidebarItem a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dashboardIcons {
+    background-color: var(--button-background);
+    height: 10vh;
+}

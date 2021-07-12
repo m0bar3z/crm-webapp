@@ -1,0 +1,30 @@
+.main-button{
+    background-color: var(--button-color-one);
+    border: none;
+    border-radius: 11px;
+    font-size: 14px;
+    font-weight: bold;
+    /* height: 65px; */
+    font-family: 'IranSans';
+}
+
+.main-card{
+    border-radius: 11px;
+    color: var(--button-color-one);
+}
+
+.no-product-main-button{
+    background-color: var(--button-color-one);
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 60px;
+    font-family: 'IranSans';
+}
+
+.no-product-main-body{
+    z-index: 1;
+    position: relative;
+    top: -5vh;
+}

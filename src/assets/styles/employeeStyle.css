@@ -1,0 +1,81 @@
+.hire-application-btn{
+    background-color: var(--button-color-two);
+}
+
+.hire-application-btn .btn-check:focus + .btn-primary, .btn-primary:focus {
+    background-color: var(--button-color-two);
+}
+
+.hire-application-btn.btn-primary:hover {
+    background-color: var(--button-color-two);
+}
+
+.hire-application-btn .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    background-color: var(--button-color-two);
+}
+
+.close-application-btn{
+    background-color: var(--dager-color);
+}
+
+.close-application-btn .btn-check:focus + .btn-primary, .btn-primary:focus {
+    background-color: var(--button-color-two);
+}
+
+.close-application-btn.btn-primary:hover {
+    background-color: var(--button-color-two);
+}
+
+.close-application-btn .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    background-color: var(--button-color-two);
+}
+
+.applications-text-gray{
+    font-size: 14px;
+    color: var(--text-color-one);
+}
+
+.applications-text-gray span{
+    color: black;
+    font-size: 16px;
+}
+
+
+.emplyees-text-gray{
+    font-size: 14px;
+    color: var(--text-color-one);
+}
+
+.emplyees-text-gray span{
+    color: black;
+    font-size: 14px;
+}
+
+
+.permission-card .form-check-input:checked[type=checkbox] {
+    background-image: none;
+}
+
+.permission-card .form-check-input:checked {
+    background-color: var(--body-bachground);
+    border-color: var(--text-color-two);
+}
+
+.edit-permission-tick-show{
+    position: absolute;
+    display: block;
+}
+
+.edit-permission-tick-fade{
+    position: absolute;
+    display: none;
+}
+
+.permission-card .form-check-input[type=checkbox] {
+    border-radius: 0.35em;
+}
+
+.permission-card .form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+}

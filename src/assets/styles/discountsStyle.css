@@ -1,0 +1,34 @@
+.discount-sms-active {
+    font-size: 19px;
+    color: var(--button-color-two);
+}
+
+.add-discount .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: var(--text-color-one);
+    background-color: var(--body-bachground);
+    border: none;
+    box-shadow: none;
+}
+
+.add-discount .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.add-discount .btn-check:focus + .btn-primary, .btn-primary:focus {
+    box-shadow: none;
+}
+.add-discount .dropdown-toggle {
+    border: none;
+    background-color: var(--body-bachground);
+    color: var(--text-color-one);
+    font-size: 13px;
+    border-radius: 10px;
+    width: 94%;
+    height: 33px;
+    text-align: right;
+}
+
+.add-discount .dropdown-toggle::after { 
+    content: "";
+    border: none;
+}
